@@ -21,7 +21,7 @@ class SimpleTest extends TestCase
         // Memanggil method countWords() dari objek WordCount
         $WordCount = $Wc->countWords($TestSentence);
 
-        // Memeriksa apakah jumlah kata yang dihitung sesuai dengan yang diharapkan
+        // Memeriksa apakah jumlah kata yang dihitung sesuai dengan yang diharapkan dengan menggunakan assertEquals. Fungsi dari assertEquals adalah memeriksa nilai yang dihasilkan dari fungsi apakah sama dengan nilai ekspektasi kita atau tidak.
         $this->assertEquals(6, $WordCount);
     }
 }
