@@ -2,8 +2,6 @@
 
 ### Unit testing 
 
-------------
-
 unit testing adalah suatu jenis software testing yang dilakukan untuk 
 menguji coba suatu bagian ataupun komponen yang ada pada software. Unit tersebut bisa berbentuk fungsi, kode, metode, prosedur, modul ataupun objek itu sendiri.
 Unit testing dilakukan agar bisa memastikan setiap unit kode yang terdapat pada 
